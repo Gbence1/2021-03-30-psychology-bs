@@ -7,47 +7,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Bevezetés a pszichológiába</title>
     <link rel="icon" href="../src/img/Psi2green.svg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 </head>
 
 <body>
-    <main>
-        <img src="../src/img/Psi2.svg" alt="Pszí">
-        <div>
-            <img src="../src/img/Psi2.svg" alt="Pszí">
-            <div>
-                <h1>a pszichológia</h1>
-                <h3>rövid bevezetés a lélektanba</h3>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="index.html">Főoldal</a>
-                    </li>
-                    <li>
-                        <a href="1.html">AAAA</a>
-                    </li>
-                    <li>
-                        <a href="2.html">AAAA</a>
-                    </li>
-                    <li>
-                        <a href="3.html">AAAA</a>
-                    </li>
-                    <li>
-                        <a href="4.html">Források</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <a href="#">Vissza a tetejére</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#"><img class="w-50" src="../src/img/Psi2.svg" alt="pszí"></a>
+        <div class="navbar-nav navbar-desktop">
+            <a class="nav-link active" href="index.html">Főoldal<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="origin.html">Eredet</a>
+            <a class="nav-link" href="trends.html">Irányzatok</a>
+            <a class="nav-link" href="famous.html">Neves pszichológusok</a>
+            <a class="nav-link" href="src.html">Források</a>
+        </div>
+        <div class="navbar-nav navbar-mobile">
+            <a class="nav-link" href="src.html">Források</a>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="jumbotron text-center pt-1">
+            <h1 class="display-1 font-size-responsive">Pszichológia</h1>
+            <p class="lead">Rövid bevezetés a lélektanba</p>
+            <hr class="my-4">
+            <p class="h1 mb-3">Mire vagy kíváncsi?</p>
+            <div class="container">
+                <div class="row">
+                    <div class="card col-sm mx-1" style="width: 18rem;">
+                        <img src="../src/img/brain-2062057_640.jpg" class="card-img-top mt-3 rounded" alt="agy">
+                        <div class="card-body">
+                            <h5 class="card-title">Ismerd meg az alapokat!</h5>
+                            <p class="card-text">Ebben a leckében megismerheted a pszichológia fogalmát és eredetét.</p>
+                            <a href="origin.html" class="btn btn-success stretched-link">Vigyél oda!</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm mx-1" style="width: 18rem;">
+                        <img src="../src/img/pexels-victor-miyata-1827215.jpg" class="card-img-top mt-3 rounded"
+                            alt="iránytű">
+                        <div class="card-body">
+                            <h5 class="card-title">Fedezd fel az irányzatokat!</h5>
+                            <p class="card-text">Ez a lecke a pszichológia különféle ágait járja körbe.</p>
+                            <a href="trends.html" class="btn btn-success stretched-link">Mehet!</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm mx-1" style="width: 18rem;">
+                        <img src="../src/img/Sigmund-Freud.jpg" class="card-img-top mt-3 rounded" alt="Sigmund Freud">
+                        <div class="card-body">
+                            <h5 class="card-title">Tudj meg többet!</h5>
+                            <p class="card-text">Ezt a leckét híres pszichológusoknak szenteltük. Ismerd meg őket!</p>
+                            <a href="famous.html" class="btn btn-success stretched-link">Vágjunk bele!</a>
+                        </div>
+                    </div>
+                </div>
+                <blockquote class="blockquote text-center mt-5">
+                    <p class="mb-0">“There are good reasons for being obedient, but being unable to be disobedient is
+                        not one of the best reasons.”</p>
+                    <footer class="blockquote-footer">R. D. Laing,
+                        <cite title="Source Title">
+                            <a class="text-muted"
+                                href="https://www.goodreads.com/work/quotes/1448216-the-divided-self-an-existential-study-in-sanity-and-madness" target="_blank">The
+                                Divided Self: An Existential Study in Sanity and Madness</a>
+                        </cite>
+                    </footer>
+                </blockquote>
             </div>
         </div>
-    </main>
-    <footer>
-        <div>
-            <p>30/03/2021 Bence Gallai</p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-nav mx-auto">
+            <a class="nav-link" href="https://github.com/Gbence1" target="_blank">
+                <p class="text-light d-inline pr-2">01/04/2021</p>
+                <img style="width: 40px;" src="../src/img/pfp_green@0.1x.png" alt="profilkép">
+                <p class="text-light d-inline pl-2">Bence Gallai</p>
+            </a>
         </div>
-    </footer>
+    </nav>
 </body>
 
 </html>

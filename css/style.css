@@ -1,0 +1,9 @@
+.font-size-responsive {
+    font-size: 7rem;
+}
+
+@media (max-width: 1200px) {
+    .font-size-responsive {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}

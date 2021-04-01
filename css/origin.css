@@ -1,0 +1,26 @@
+.col-left {
+    width: 41.66%;
+}
+
+@media (max-width: 1200px) {
+    .col-left {
+        width: 100%;
+    }
+}
+
+.col-right{
+    width: 58.33%;
+    padding-left: 20px;
+}
+
+@media (max-width: 1200px){
+    .col-right{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .responsive-margin{
+        margin: 5px;
+    }
+}
